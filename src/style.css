@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Garet";
+  src: url()
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+.container.black-on-white{
+  color: #fff;
+  background-color: #000;
+}
+
+.container.white-on-black{
+  color: #000;
+}
+
+.section {
+  display: flex;
+}
+
+section article h3:first-child {
+  flex: 1 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  flex-flow: column;
+  font-size: 30px;
+}
+
+section article h1:last-child {
+  flex: 2 500px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  font-size: 60px;
+}
