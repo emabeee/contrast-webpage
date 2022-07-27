@@ -4,9 +4,40 @@
 }
 
 @font-face {
-  font-family: "Garet";
-  src: url()
+  font-family: 'garet';
+  src: url('fonts/Garet-Book.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'garet';
+  src: url('fonts/Garet-Heavy.otf') format('otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gistesy';
+  src: url('fonts/Gistesy.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'now';
+  src: url('fonts/Now-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'now';
+  src: url('fonts/Now-Bold.otf') format('otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
 .container{
   height: 100vh;
   width: 100%;
