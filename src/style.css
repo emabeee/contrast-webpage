@@ -59,6 +59,7 @@
 }
 
 section article h3:first-child {
+  font-family: 'Garet-Book';
   flex: 1 300px;
   display: flex;
   flex-flow: row wrap;
@@ -68,6 +69,7 @@ section article h3:first-child {
 }
 
 section article h1:last-child {
+  font-family: 'Garet-Book';
   flex: 2 500px;
   display: flex;
   flex-flow: row wrap;
